@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease-in-out;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.jumbotron {
+    position: relative;
+    height: 200px;
+    padding: 0;
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: fit-content;
+}
+
+.featured {
+    cursor: pointer;
+}
+
+.nav-up {
+    bottom: 10px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.lead {
+    font-size: 30px;
+    text-align: right;
+}
+
+.center-icons {
+    margin: 10px auto 10px auto;
+    font-size: 80px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#weather-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
