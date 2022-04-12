@@ -154,7 +154,7 @@ const displayDailyHumidity = (dailies) => {
 
     for (let i = 0; i < cards.length; i++) {
         let cardHumidityEl = $(`#${cards[i].humidity}`);
-        cardHumidityEl.text(`Temp: ${dailyHumidities[i]}%`);
+        cardHumidityEl.text(`Humidity: ${dailyHumidities[i]}%`);
     }
 }
 
